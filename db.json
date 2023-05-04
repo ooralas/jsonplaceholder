@@ -1,0 +1,116 @@
+{
+  "id": "1",
+  "elements": [
+    {
+      "element_type": "INPUTTEXT",
+      "tag_name": "input",
+      "label": "Vorname",
+      "isRequired": true,
+      "selector": "input[name=first_name][type=text]",
+      "attributes": {
+        "class": "form-control",
+        "required": "",
+        "placeholder": "First",
+        "name": "first_name",
+        "type": "text",
+        "value": ""
+      },
+      "parent": {
+        "tagName": "div",
+        "attributes": {
+          "class": "form-group col-md-6 col"
+        }
+      },
+      "element_order": null,
+      "options": [
+        {
+          "visableText": "Bitte auswählen...",
+          "attributes": {
+            "selected": "selected",
+            "value": ""
+          }
+        },
+        {
+          "visableText": "Männlich",
+          "attributes": {
+            "value": "male"
+          }
+        },
+        {
+          "visableText": "Weiblich",
+          "attributes": {
+            "value": "female"
+          }
+        },
+        {
+          "visableText": "Divers",
+          "attributes": {
+            "value": "diverse"
+          }
+        },
+        {
+          "visableText": "Unbestimmt",
+          "attributes": {
+            "value": "undefined"
+          }
+        }
+      ]
+    },
+    {
+      "element_type": "INPUTTEXT",
+      "tag_name": "input",
+      "label": "Nachname",
+      "isRequired": true,
+      "selector": "input[name=last_name][type=text]",
+      "attributes": {
+        "class": "form-control",
+        "required": "",
+        "placeholder": "First",
+        "name": "first_name",
+        "type": "text",
+        "value": ""
+      },
+      "parent": {
+        "tagName": "div",
+        "attributes": {
+          "class": "form-group col-md-6 col"
+        }
+      },
+      "element_order": null,
+      "options": [
+        {
+          "visableText": "Bitte auswählen...",
+          "attributes": {
+            "selected": "selected",
+            "value": ""
+          }
+        },
+        {
+          "visableText": "Männlich",
+          "attributes": {
+            "value": "male"
+          }
+        },
+        {
+          "visableText": "Weiblich",
+          "attributes": {
+            "value": "female"
+          }
+        },
+        {
+          "visableText": "Divers",
+          "attributes": {
+            "value": "diverse"
+          }
+        },
+        {
+          "visableText": "Unbestimmt",
+          "attributes": {
+            "value": "undefined"
+          }
+        }
+      ]
+    }
+  ],
+  "privacyPolicyURL": "https://latebird-gmbh.jobs.personio.de/privacy-policy?language=de"
+}
